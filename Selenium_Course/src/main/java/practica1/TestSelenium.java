@@ -11,8 +11,6 @@ public class TestSelenium {
 		//String exePath = "./drivers/chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
-		
 		driver.get("https://www.google.com");
 	}
 
